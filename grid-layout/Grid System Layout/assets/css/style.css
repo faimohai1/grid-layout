@@ -1,0 +1,86 @@
+.wrapper{
+	width: 80%; /*to shrimp the page from both side*/
+	height: auto;
+	margin: 0 auto;
+}
+
+/*.header{
+	height: 200px;
+	width: 100%;
+	background-color: red;
+	/*float: middle;
+
+}
+*/
+/*.menu{
+	height: 50px;
+	width: 100%;
+	background-color: blue;
+
+}
+
+.sidebar{
+	
+	width: 180px;
+	height: 800px;
+	background-color: green;
+}
+.sidebar>ul{
+	margin: 0px;
+}
+.body-content{
+
+}
+
+.footer{
+
+} */
+
+/*GRID SYSTEM*/
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%; }
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+/*to style a number of class with same attributes*/
+[class*='col-']{  /*these properties will be added to the classes that have col- on there names*/
+	box-sizing: border-box;	
+
+	border: 1px solid;
+
+	float: left;
+}
+
+/*wrapper*/
+ .row:after{
+ 	content: "";
+ 	clear: both;
+ 	display: block;
+ }
+/*heights*/
+.header-top-height{
+	height: 30px;
+}
+ .header-height{
+ 	height: 200px;
+ }
+ .menu-height{
+ 	height: 50px;
+ }
+ .content-height{
+ 	height: 660px;
+ }
+ .big-footer-height{
+ 	height: 250px;
+ }
+ .footer-height{
+ 	height: 30px;
+ }
